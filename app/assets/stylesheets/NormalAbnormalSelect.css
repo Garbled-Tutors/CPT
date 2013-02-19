@@ -1,0 +1,17 @@
+.MbeFormNormalabnormalselect { 
+}
+.MbeFormNormalabnormalselectContainer { 
+}
+.MbeFormNormalabnormalselectBoxClosed{ 
+  display: none;
+}
+.abnormalFindings .dojoxListInputMatch {
+  border: 1px solid red;
+  background-color: #FFCCCC;
+}
+.abnormalFindings .muiListInputMatch {
+  background-color: #ffcccc;
+}
+.normalFindings .muiListInputMatch {
+  background-color: #dfffdf;
+}

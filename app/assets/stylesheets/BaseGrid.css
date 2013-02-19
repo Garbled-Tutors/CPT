@@ -1,0 +1,15 @@
+.mbeBaseGridNestedPaneTitle {
+  background-color:#FFFFFF;
+  background-position:10px 50%;
+  background-repeat:no-repeat;
+  border-bottom:1px solid #E7E7E7;
+  cursor:pointer;
+  font-size:1.1em;
+  padding:10px 10px 10px 32px;
+}
+.mbeBaseGridNestedPane .MuiNestedPaneContainer {
+  display:none;
+}
+.mbeBaseGridNestedPane.mbeBaseGridOpenedPane .MuiNestedPaneContainer {
+  display:block;
+}

@@ -1,0 +1,26 @@
+%div.content-header
+  %h3
+    Current Procedural Terminology
+  = form_for :search, :html => {:method => 'GET', :url => '', :class => 'misc-toolbar'} do 
+    = text_field_tag :search_query, params[:search_query], :class => 'search_box'
+    = check_box_tag :exact_match, "true", params[:exact_match], :value => :true
+    Exact Match
+    = submit_tag "search", :name => nil, :id => 'Search'
+
+%div.content-body
+  %table{:id => :results, :class => 'result-table'}
+    %thead
+      %tr.result-row
+        %th Code
+        %th{:style => 'width: 300px'} Abbreviated
+        %th Description
+    %tbody
+      - if @cpts.empty?
+        %tr.result-row
+          %td{:colspan => (3)} There are no records
+      - else
+        - @cpts.each do |record|
+          %tr.result-row
+            %td= record.code
+            %td= record.short_description
+            %td= record.long_description

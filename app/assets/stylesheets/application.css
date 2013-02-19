@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+body {
+  font-family: Geneva,Arial,Helvetica,sans-serif;
+  color: #222;
+  font-size: 81.25%;
+  text-align: left;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+.search_box {
+  background-image:url('images/validationInputBg.png');
+  border-color:#B3B3B3;
+  border-width:1px;
+  border-style:solid;
+  box-shadow:none;
+  background-repeat:repeat-x;
+}
+.content-header {
+  background-color: #444;
+  color: #FFF;
+  float:left;
+  width: 100%;
+}
+.content-header h3 {
+  padding-left: 10px;
+  margin: 5px;
+}
+.content-body {
+  padding: 19.5px 30px;
+  float:left;
+}
+.misc-toolbar {
+  background-color: #F9F9F9;
+  color: #222;
+  border-bottom: 0.077em solid #E6E6E6;
+  border-color: #E6E6E6;
+  padding: 0.75em 10px 0.673em;
+}
+
+.result-table {
+  margin-top: 9.75px;
+  margin-right: 0;
+  margin-bottom: 9.75px;
+}
+.result-table th {
+  color: #555555;
+  font-weight: bold;
+  height: 29.25px;
+}
+.result-table td {
+  border-bottom: 1px solid #E6E6E6;
+  padding-right: 30px;
+  height: 29.25px;
+}

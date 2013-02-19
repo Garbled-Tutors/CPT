@@ -1,0 +1,28 @@
+.MbeFormContainer {
+  background:url("../images/form_bkg.png") repeat-x scroll center top #F1F1F1;
+  border:1px solid #CCCCCC;
+}
+
+.FormTitle {
+  background:#fff;
+  border-bottom:1px solid #AAAAAA;
+  font-family:Tahoma,Geneva,sans-serif;
+  font-size:1em;
+  padding:0.5em;
+}
+
+.FormCell {
+  display:inline-block;
+  padding:0.5em;
+  vertical-align:top;
+  width:14em;
+}
+
+.FormTopLabel {
+  color:#666666;
+  padding:2px;
+}
+.FormInput {
+  width: 12.8em;
+}
+

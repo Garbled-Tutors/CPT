@@ -1,0 +1,15 @@
+$font_fancy_path: "/fonts/font_fancy";
+$font_fancy: "Font Fancy";
+
+@font-face {
+  font-family: $font_fancy;
+  src: local($font_fancy),
+    url("#{$font_fancy_path}.ttf");
+}
+.icon {
+  color:inherit;
+  font-family: $font_fancy;
+}
+a.icon:hover {
+  color:inherit;
+}
